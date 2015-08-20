@@ -8,14 +8,15 @@ A Fast Fourier Transform (FFT) was applied to some of these signals producing fB
 
 
 Description of abbreviations of measurements
-1.leading t or f is based on time or frequency measurements.
-2.Body = related to body movement.
-3.Gravity = acceleration of gravity
-4.Acc = accelerometer measurement
-5.Gyro = gyroscopic measurements
-6.Jerk = sudden movement acceleration
-7.Mag = magnitude of movement
-8.mean and SD are calculated for each subject for each activity for each mean and SD measurements.
+
+  1.leading t or f is based on time or frequency measurements.
+  2.Body = related to body movement.
+  3.Gravity = acceleration of gravity
+  4.Acc = accelerometer measurement
+  5.Gyro = gyroscopic measurements
+  6.Jerk = sudden movement acceleration
+  7.Mag = magnitude of movement
+  8.mean and SD are calculated for each subject for each activity for each mean and SD measurements.
 
 The units given are g’s for the accelerometer and rad/sec for the gyro and g/sec and rad/sec/sec for the corresponding jerks.
 
@@ -40,7 +41,7 @@ These signals were used to estimate variables of the feature vector for each pat
 •fBodyGyroJerkMag
 
 
-#The set of variables that were estimated from these signals are:
+The set of variables that were estimated from these signals are:
 •mean(): Mean value
 •std(): Standard deviation
 
@@ -59,35 +60,35 @@ For each record it is provided:
 The dataset includes the following files:
 =========================================
 
-- 'README.txt'
+ 'README.txt'
 
-- 'features_info.txt': Shows information about the variables used on the feature vector.
+ 'features_info.txt': Shows information about the variables used on the feature vector.
 
-- 'features.txt': List of all features.
+ 'features.txt': List of all features.
 
-- 'activity_labels.txt': Links the class labels with their activity name.
+ 'activity_labels.txt': Links the class labels with their activity name.
 
-- 'train/X_train.txt': Training set.
+ 'train/X_train.txt': Training set.
 
-- 'train/y_train.txt': Training labels.
+ 'train/y_train.txt': Training labels.
 
-- 'test/X_test.txt': Test set.
+ 'test/X_test.txt': Test set.
 
-- 'test/y_test.txt': Test labels.
+ 'test/y_test.txt': Test labels.
 
 The following files are available for the train and test data. Their descriptions are equivalent. 
 
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+ 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+ 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
 
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+ 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+ 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 Notes: 
 ======
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
+ Features are normalized and bounded within [-1,1].
+ Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
